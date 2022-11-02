@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+/*custom porperty*/
+:root {
+  --color-fondo : #fff159;
+}
+
+.nav {
+  background: var(--color-fondo);
+  height: 80px;
+  color: black;
+}
+
+
+
+.formulario {
+  border: 1px solid black;
+
+}
+
+.titulo {
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+nav {
+  background-color: #fff159;
+  ;
+  padding: 3px;
+
+}
+
+main {
+  background-image: url("../img/fondo/jardinjapones.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 3px;
+}
+
+.precio {
+  background-color: var(--color-fondo);
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+.mas {
+  width: 50px;
+  height: 45px;
+}
+
+footer, .pagos {
+    background-color: #fff159;
+}
+
+.referencias {
+  width: 200px;
+}
+
+.tarjeta {
+  background-color: #ebebeb;
+  border: 5px solid black;
+  margin: 1px;
+  padding: 2px;
+  height: auto;
+  width: 200px;
+
+}
+
+.imagen__tarjeta {
+  width: 100px;
+}
