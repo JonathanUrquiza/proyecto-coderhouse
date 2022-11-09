@@ -1,89 +1,75 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
-
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
-  list-style: none;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    
+}
+body {
+    margin: 0;
+}
+body a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+form button {
+    padding: 3px 5px;
+    color: white;
+    font-size: 1.5em;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px rgba(245, 245, 245, 0.849);
 }
 
-/*custom porperty*/
-:root {
-  --color-fondo : #fff159;
+button:hover {
+    background-color: rgb(134, 14, 247);
 }
-
-.nav {
-  background: var(--color-fondo);
-  height: 80px;
-  color: black;
+.container {
+    max-width: 1400px;
+    margin: auto;
 }
-
-
-
-.formulario {
-  border: 1px solid black;
-
+header .navbar {
+    margin: 0;
+    padding-left: 25px;
 }
-
-.titulo {
-  width: 20%;
-  height: 100%;
-  border: 1px solid black;
+#hero {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url(../img/ref/Estaciones-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
 }
-
-nav {
-  background-color: #fff159;
-  ;
-  padding: 3px;
-
+#hero:hover {
+    color: blueviolet;
 }
-
-main {
-  background-image: url("../img/fondo/jardinjapones.jpg");
-  background-repeat: no-repeat;
-  background-size: cover ;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 3px;
+#remeras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
 }
-
-.precio {
-  background-color: var(--color-fondo);
-  padding: 8px;
-  border: 1px solid black;
-  border-radius: 8px;
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  
-
+.img-remeras{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 20px;
 }
-.mas {
-  width: 50px;
-  height: 45px;
-}
-
-footer, .pagos {
-    background-color: #fff159;
-}
-
-.referencias {
-  width: 200px;
-}
-
-.tarjeta {
-  background-color: #ebebeb;
-  border: 5px solid black;
-  margin: 1px;
-  padding: 2px;
-  height: auto;
-  width: 200px;
-
-}
-
-.imagen__tarjeta {
-  width: 100px;
+.remeras-datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
