@@ -4,16 +4,19 @@
     box-sizing: border-box;
     font-family: sans-serif;
     list-style: none;
-    
+
 }
+
 body {
     margin: 0;
 }
+
 body a {
     text-decoration: none;
     color: whitesmoke;
-    
+
 }
+
 form button {
     padding: 3px 5px;
     color: white;
@@ -27,49 +30,74 @@ form button {
 button:hover {
     background-color: rgb(134, 14, 247);
 }
+
 .container {
     max-width: 1400px;
     margin: auto;
 }
+
 header .navbar {
     margin: 0;
     padding-left: 25px;
 }
-#hero {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    )
-    ,url(../img/ref/Estaciones-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: beige;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 40vh;
+
+#hero img{
+    width: 100%;
 }
+
 #hero:hover {
     color: blueviolet;
 }
+
 #remeras {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+
 }
-.img-remeras{
+
+.img-remeras {
     width: 100%;
     border-radius: 25px;
     margin-top: 20px;
 }
+
 .remeras-datos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+}
+
+#mujer {
+    height: 40vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/ref/Running.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#indumentaria img {
+    width: 100%;
+}
+#hombres {
+    height: 40vh;
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), 
+    url(../img/ref/humbrerunnig.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
