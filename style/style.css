@@ -30,46 +30,55 @@ form button {
 button:hover {
     background-color: rgb(134, 14, 247);
 }
-
-.container {
-    max-width: 1400px;
-    margin: auto;
-}
-
 header .navbar {
     margin: 0;
     padding-left: 25px;
 }
-
-#hero img{
-    width: 100%;
-}
-
-#hero:hover {
-    color: blueviolet;
-}
-
-#remeras {
+.container {
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
-
-.img-remeras {
+.container-card {
     width: 100%;
+    height: 100%;
+    border: 2px solid rgb(77, 134, 40);
     border-radius: 25px;
-    margin-top: 20px;
-}
-
-.remeras-datos {
+    margin: 2px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
+.container-card img {
+    width: 100%;
+    border-radius: 75%;
+}
 
+#hero img{
+    width: 100%;
+    
+}
+#remeras {
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(253, 0, 0, 0.5)), url(../img/ref/remeras.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+}
 #mujer {
     height: 40vh;
     background-image: linear-gradient(0deg,
@@ -100,4 +109,38 @@ header .navbar {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+#ninios {
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(253, 0, 0, 0.5)), url(../img/ref/deporte-infantil-k81F--620x349@abc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+}
+footer {
+    border: 3px solid blueviolet;
+}
+.whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.whatsapp img {
+    width: 20px;
+}
+.copy {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
